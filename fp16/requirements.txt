@@ -1,0 +1,23 @@
+# Core ML + inference
+torch>=2.0.0
+torchvision==0.24.1
+torchaudio==2.9.1
+vllm==0.15.0
+transformers==4.57.6
+accelerate==1.13.0
+bitsandbytes==0.49.2
+
+# JailbreakBench + judge dependencies
+jailbreakbench>=1.0.0
+litellm<1.50
+datasets==4.8.5
+huggingface_hub==0.36.2
+
+# Data + utils
+numpy==2.2.6
+pandas==2.2.3
+tqdm==4.67.3
+ipywidgets
+
+# Build constraint (required for vllm/jailbreakbench install)
+setuptools<70.0.0
